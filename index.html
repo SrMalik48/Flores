@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Porque eres mi favorita?</title>
+    <link rel="stylesheet" href="styles/main.css">
+</head>
+<body>
+    <div id="background"></div>
+    <div id="game-box">
+        <h1>Porque eres mi favorita?</h1>
+        <div id="game-area">
+    <div id="flowey-container">
+        <img id="flowey" src="assets/flowey.png" alt="Flowey">
+        <div id="speech-bubble"></div>
+    </div>
+    <div id="obstacles"></div>
+</div>
+        <div id="score">Score: 0</div>
+        <div id="message"></div>
+    </div>
+    <div id="letter-screen" style="display:none;">
+    <div id="letter-card">
+        <h2>Para ti:</h2>
+        <p id="letter-message">
+            ¡Gracias por jugar!<br>
+            Eres una persona increíble y mereces todo lo bueno que te pase.<br>
+            Sigue saltando obstáculos y nunca dejes de florecer.
+        </p>
+        <button onclick="window.location.reload()">Volver a jugar</button>
+    </div>
+</div>
+    <script src="scripts/game.js"></script>
+</body>
+</html> 
